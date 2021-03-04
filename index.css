@@ -1,5 +1,29 @@
-h2{
-    color: black;
+
+body{
+    background-color: beige;
+    color: brown;
+}
+
+#lineup{
     text-align: center;
-    font-size: larger;
+    text-decoration: inherit;
+    color: black;
+}
+
+li:active{
+    color: red;
+}
+
+li:first-child{
+    color: chocolate;
+    background-color: darkblue;
+}
+
+li:last-child{
+    border: 4px solid green;
+}
+
+li:nth-child(7){
+    border: 5px dotted purple;
+    border-radius: 10px;
 }
